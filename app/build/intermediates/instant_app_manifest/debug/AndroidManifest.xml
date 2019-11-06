@@ -20,20 +20,20 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="br.com.etecia.appestrela.Sign_In_Activity"
-            android:theme="@style/TemaSemBarra" />
-        <activity
-            android:name="br.com.etecia.appestrela.LoginActivity"
-            android:theme="@style/TemaBarraVermelha" />
-        <activity
-            android:name="br.com.etecia.appestrela.MainActivity"
-            android:theme="@style/TemaSemBarra" >
+            android:name="br.com.etecia.appestrela.Splash_Activity"
+            android:theme="@style/TemaBarraVermelha" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="br.com.etecia.appestrela.Sign_In_Activity"
+            android:theme="@style/TemaSemBarra" />
+        <activity
+            android:name="br.com.etecia.appestrela.LoginActivity"
+            android:theme="@style/TemaBarraVermelha" />
     </application>
 
 </manifest>

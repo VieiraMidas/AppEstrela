@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sign_In_Activity" android:theme="@style/TemaSemBarra"></activity>
-        <activity android:name=".LoginActivity" android:theme="@style/TemaBarraVermelha" ></activity>
-        <activity android:name=".MainActivity" android:theme="@style/TemaSemBarra">
+        <activity android:name=".Splash_Activity" android:theme="@style/TemaBarraVermelha">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Sign_In_Activity"
+            android:theme="@style/TemaSemBarra" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/TemaBarraVermelha" />
     </application>
 
 </manifest>

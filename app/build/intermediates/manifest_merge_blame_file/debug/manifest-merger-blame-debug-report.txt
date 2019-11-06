@@ -6,57 +6,57 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml
+8-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml
+9-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
-12-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.0.1] C:\Users\manager\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:11:9-40
+20-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:11:9-40
 21        <activity
-21-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:12:9-99
-22            android:name="br.com.etecia.appestrela.Sign_In_Activity"
-22-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:12:19-51
-23            android:theme="@style/TemaSemBarra" />
-23-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:12:52-87
-24        <activity
-24-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:13:9-102
-25            android:name="br.com.etecia.appestrela.LoginActivity"
-25-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:13:19-48
-26            android:theme="@style/TemaBarraVermelha" />
-26-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:13:49-89
-27        <activity
-27-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:14:9-20:20
-28            android:name="br.com.etecia.appestrela.MainActivity"
-28-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:14:19-47
-29            android:theme="@style/TemaSemBarra" >
-29-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:14:48-83
-30            <intent-filter>
-30-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:15:13-19:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:16:17-69
-31-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:16:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:18:17-77
-33-->C:\Users\manager\Desktop\AppEstrela2\app\src\main\AndroidManifest.xml:18:27-74
-34            </intent-filter>
-35        </activity>
+21-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:12:9-18:20
+22            android:name="br.com.etecia.appestrela.Splash_Activity"
+22-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:12:19-50
+23            android:theme="@style/TemaBarraVermelha" >
+23-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:12:51-91
+24            <intent-filter>
+24-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:14:17-69
+25-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:16:17-77
+27-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:19:9-21:51
+31            android:name="br.com.etecia.appestrela.Sign_In_Activity"
+31-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:20:13-45
+32            android:theme="@style/TemaSemBarra" />
+32-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:21:13-48
+33        <activity
+33-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:22:9-24:56
+34            android:name="br.com.etecia.appestrela.LoginActivity"
+34-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:23:13-42
+35            android:theme="@style/TemaBarraVermelha" />
+35-->C:\Users\manager\AppEstrela\app\src\main\AndroidManifest.xml:24:13-53
 36    </application>
 37
 38</manifest>

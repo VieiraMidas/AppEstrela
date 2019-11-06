@@ -726,7 +726,6 @@ id icon_group
 id idToolBar
 id ifRoom
 id image
-id imvSignIn
 id info
 id invisible
 id italic
@@ -838,7 +837,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout login_layout
-layout main_activity
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -849,6 +847,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout signin_layout
+layout splash_layout
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round

@@ -1,4 +1,4 @@
-#Wed Oct 30 21:11:44 BRT 2019
-base.0=C\:\\Users\\manager\\Desktop\\AppEstrela2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Wed Nov 06 20:53:08 BRST 2019
+base.0=C\:\\Users\\manager\\AppEstrela\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
